@@ -1,0 +1,204 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+.section-desc {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.sec-pad {
+    padding: 60px 0;
+}
+
+/* Hero section start */
+
+.hero-section {
+    background-image: url("images/pexels-djordje-petrovic-2102416-1920x2880.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-section .btn.btn-primary {
+    padding: 16px 47px;
+    background: top;
+    color: black;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-color: #3881ec;
+    margin-top: 20px;
+}
+
+/* Navbar section start */
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* About section start */
+
+.about-desc {
+    position: absolute;
+    top: 10;
+    margin-left: 30px;
+    padding-right: 30px;
+    margin-top: -352px;
+}
+
+.about-section .row {
+    align-items: center;
+}
+
+.about-section .col-lg-6 {
+    margin-bottom: 30px;
+}
+
+.about-section img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 5px;
+    max-height: 100%;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/* Team section start */
+
+.team-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.team-section h2 {
+    margin-bottom: 30px;
+}
+
+.team-member {
+    margin-top: 40px;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team-member h4 {
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #888;
+}
+
+/* Portfolio section start */
+
+.portfolio-section {
+    padding: 80px 0;
+}
+
+.portfolio-menu {
+    margin-bottom: 30px;
+}
+
+.portfolio-menu .nav-link {
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-menu .nav-link.active {
+    background-color: #f8f9fa;
+}
+
+.portfolio-item {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.spinner {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.tabs-sec h2,
+.addcordion-sec h2 {
+    margin-bottom: 30px;
+}
+
+#myTabsContent h3 {
+    padding-top: 20px;
+}
+.bar h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.bar {
+    padding-left: 30px;
+}
+.badges-sec {
+    margin-left: 30px;
+}
+.badges-sec h2 {
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.sec-title h2 {
+    margin-bottom: 30px;
+}
